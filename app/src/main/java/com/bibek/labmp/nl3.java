@@ -27,6 +27,7 @@ public class nl3 extends AppCompatActivity {
 
     }
 
+
     public static class MyDialog extends DialogFragment{
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState){

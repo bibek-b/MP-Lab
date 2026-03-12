@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Lab7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_title"
+        android:text="College Survey"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_q1"
+        android:layout_marginTop="20dp"
+        android:text="Q1.How would you rate the overall quality of education at this college?"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        android:textSize="20dp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_q1Options"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/tv_q1"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q1Good"
+            android:text="Good"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q1Avg"
+            android:text="Average"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q1Bad"
+            android:text="Bad"
+            />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_q2"
+        android:layout_marginTop="20dp"
+        android:text="Q2.How accessible are college resources (library, technology, support services)?"
+        app:layout_constraintTop_toBottomOf="@id/rg_q1Options"
+        android:textSize="20dp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_q2Options"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/tv_q2"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q2Good"
+            android:text="Good"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q2Avg"
+            android:text="Average"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q2Bad"
+            android:text="Bad"
+            />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_q3"
+        android:layout_marginTop="20dp"
+        android:text="Q3.Do instructors encourage critical thinking and student participation?"
+        app:layout_constraintTop_toBottomOf="@id/rg_q2Options"
+        android:textSize="20dp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_q3Options"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/tv_q3"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q3Good"
+            android:text="Good"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q3Avg"
+            android:text="Average"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q3Bad"
+            android:text="Bad"
+            />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_q4"
+        android:layout_marginTop="20dp"
+        android:text="Q4.Are assessments (exams, assignments, projects) fair and aligned with what's taught?"
+        app:layout_constraintTop_toBottomOf="@id/rg_q3Options"
+        android:textSize="20dp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_q4Options"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/tv_q4"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q4Good"
+            android:text="Good"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q4Avg"
+            android:text="Average"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q4Bad"
+            android:text="Bad"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_q5"
+        android:layout_marginTop="20dp"
+        android:text="Q4.How would you describe the classroom atmosphere (supportive, competitive, collaborative)?"
+        app:layout_constraintTop_toBottomOf="@id/rg_q4Options"
+        android:textSize="20dp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_q5Options"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/tv_q5"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q5Good"
+            android:text="Good"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q5Avg"
+            android:text="Average"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q5Bad"
+            android:text="Bad"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_q6"
+        android:layout_marginTop="20dp"
+        android:text="Q6.Is the curriculum relevant to current industry standards and practices?"
+        app:layout_constraintTop_toBottomOf="@id/rg_q5Options"
+        android:textSize="20dp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_q6Options"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/tv_q6"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q6Good"
+            android:text="Good"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q6Avg"
+            android:text="Average"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_q6Bad"
+            android:text="Bad"
+            />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_showAns"
+        android:text="Show Ans"
+        app:layout_constraintTop_toBottomOf="@id/rg_q6Options"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

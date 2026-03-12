@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Lab9">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_profile"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintCircleRadius="100dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_username"
+        android:text="Bibek bishwokarma"
+        app:layout_constraintTop_toBottomOf="@id/img_profile"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_email"
+        android:text="Email"
+        app:layout_constraintLeft_toLeftOf="@id/img_profile"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_emailValue"
+        android:text="example@gmail.com"
+        app:layout_constraintTop_toBottomOf="@id/tv_email"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_PhoneNum"
+        android:text="Phone Number"
+        app:layout_constraintRight_toRightOf="@id/img_profile"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_PhoneNumValue"
+        android:text="9854536363"
+        app:layout_constraintTop_toBottomOf="@id/tv_PhoneNum"
+        app:layout_constraintStart_toStartOf="@id/tv_PhoneNum"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_bio"
+        android:text="Bio"
+        app:layout_constraintTop_toBottomOf="@id/tv_username"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_bioValue"
+        android:text="Hello, I'm Bibek Bishowkarma, a Software Developer from Nepal."
+        app:layout_constraintTop_toBottomOf="@id/tv_bio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_edit"
+        android:text="Edit"
+        app:layout_constraintTop_toBottomOf="@id/tv_bioValue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

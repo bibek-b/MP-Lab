@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LabMP">
         <activity
-            android:name=".Lab7"
+            android:name=".Lab8"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,47 +20,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".nl3"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".Nl2"
-            android:exported="false" />
-        <activity
-            android:name=".NL1"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".Lab9"
             android:exported="false"
             android:theme="@style/Theme.LabMP" />
-        <activity
-            android:name=".Lab8"
-            android:exported="false" />
+
         <activity
             android:name=".Show7Ans"
             android:exported="false" />
 
-        <activity
-            android:name=".Lab6"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".Lab5"
             android:exported="false" />
@@ -70,18 +40,14 @@
         <activity
             android:name=".L3FeedbackForm"
             android:exported="false" />
-        <activity
-            android:name=".Lab3"
-            android:exported="false" />
+
         <activity
             android:name=".UserDetailsActivity"
             android:exported="false" />
         <activity
             android:name=".ArithmeticOperation"
             android:exported="false" />
-        <activity
-            android:name=".RegistrationForm"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="false" />

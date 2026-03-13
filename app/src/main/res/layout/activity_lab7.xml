@@ -188,34 +188,13 @@
         android:textSize="20dp"
         />
 
-    <RadioGroup
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rg_q5Options"
-        android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@id/tv_q5"
-        >
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/rb_q5Good"
-            android:text="Good"
-            />
-
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/rb_q5Avg"
-            android:text="Average"
-            />
-
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/rb_q5Bad"
-            android:text="Bad"
-            />
-    </RadioGroup>
+        android:id="@+id/et_q5"
+        app:layout_constraintTop_toBottomOf="@+id/tv_q5"
+        android:hint="Describe here..."
+        />
 
     <TextView
         android:layout_width="match_parent"
@@ -223,7 +202,7 @@
         android:id="@+id/tv_q6"
         android:layout_marginTop="20dp"
         android:text="Q6.Is the curriculum relevant to current industry standards and practices?"
-        app:layout_constraintTop_toBottomOf="@id/rg_q5Options"
+        app:layout_constraintTop_toBottomOf="@id/et_q5"
         android:textSize="20dp"
         />
 

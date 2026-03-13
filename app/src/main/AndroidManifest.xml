@@ -12,7 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LabMP">
         <activity
-            android:name=".Lab8"
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".Lab10"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,12 +34,9 @@
             android:name=".Lab9"
             android:exported="false"
             android:theme="@style/Theme.LabMP" />
-
         <activity
             android:name=".Show7Ans"
             android:exported="false" />
-
-
         <activity
             android:name=".Lab5"
             android:exported="false" />
@@ -40,14 +46,12 @@
         <activity
             android:name=".L3FeedbackForm"
             android:exported="false" />
-
         <activity
             android:name=".UserDetailsActivity"
             android:exported="false" />
         <activity
             android:name=".ArithmeticOperation"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="false" />

@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_add"
+        android:title="Add"/>
+
+    <item
+        android:id="@+id/menu_subtract"
+        android:title="Subtract"/>
+
+    <item
+        android:id="@+id/menu_divide"
+        android:title="Divide"/>
+
+    <item
+        android:id="@+id/menu_multiply"
+        android:title="Multiply"/>
+
+    <item
+        android:id="@+id/menu_modulus"
+        android:title="Modulus"/>
+
+</menu>

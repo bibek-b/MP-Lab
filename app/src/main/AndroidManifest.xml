@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LabMP">
         <activity
+            android:name=".Lab11"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".About"
             android:exported="false" />
         <activity
@@ -29,7 +38,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Lab9"
             android:exported="false"
